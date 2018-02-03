@@ -1,12 +1,25 @@
 {
   "name": "web-server",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "author": "Raghav Anandan",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raghavanandan/web-server.git"
+  },
+  "author": "Raghav",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raghavanandan/web-server/issues"
+  },
+  "homepage": "https://github.com/raghavanandan/web-server#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "hbs": "^4.0.1"
+  },
+  "devDependencies": {},
+  "description": ""
 }
